@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="main">
+        <h1>Phising detector</h1>
+        <h2>This website checks to see if your link is a known phising scam.</h2>
+        <h3>link should follow format: https://google.com (as an example).</h3>
+        <br>
+        <div id="url-container">
+            <input type="text" name="url" id="target-url-input" placeholder="Enter link..." > 
+            <button type="submit" onclick="checkUrl()">Check</button>
+        </div>
+
+        <h3 id="domData"></h3>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
